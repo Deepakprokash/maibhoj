@@ -1,0 +1,210 @@
+{
+  "language": "maithili",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "n_scored": 201,
+  "n_missing": 0,
+  "emo_acc": 0.582089552238806,
+  "emo_macro_precision": 0.30725829725829723,
+  "emo_macro_recall": 0.28329689018464527,
+  "emo_macro_f1": 0.2896770891097556,
+  "emo_weighted_f1": 0.5870688361714865,
+  "emo_kappa": 0.3747592949192713,
+  "emo_mean_js": 0.14741794410806464,
+  "sent_acc": 0.7114427860696517,
+  "sent_macro_precision": 0.6220775001476756,
+  "sent_macro_recall": 0.6680177645935624,
+  "sent_macro_f1": 0.6364171374764594,
+  "sent_weighted_f1": 0.7251700536863703,
+  "sent_kappa": 0.4932185706833594,
+  "emotion_confusion_matrix": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "matrix": [
+      [
+        6,
+        0,
+        1,
+        2,
+        4,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        74,
+        17,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        12,
+        16,
+        5,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        10,
+        12,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "emotion_per_class": {
+    "anger": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4,
+      "support": 18.0
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "joy": {
+      "precision": 0.7474747474747475,
+      "recall": 0.7551020408163265,
+      "f1-score": 0.751269035532995,
+      "support": 98.0
+    },
+    "neutral": {
+      "precision": 0.32,
+      "recall": 0.45714285714285713,
+      "f1-score": 0.3764705882352941,
+      "support": 35.0
+    },
+    "sadness": {
+      "precision": 0.5833333333333334,
+      "recall": 0.4375,
+      "f1-score": 0.5,
+      "support": 48.0
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.582089552238806,
+    "macro avg": {
+      "precision": 0.30725829725829723,
+      "recall": 0.28329689018464527,
+      "f1-score": 0.2896770891097556,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.6042414191667923,
+      "recall": 0.582089552238806,
+      "f1-score": 0.5870688361714865,
+      "support": 201.0
+    }
+  },
+  "sentiment_confusion_matrix": {
+    "labels": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        95,
+        14,
+        19
+      ],
+      [
+        8,
+        34,
+        5
+      ],
+      [
+        5,
+        7,
+        14
+      ]
+    ]
+  },
+  "sentiment_per_class": {
+    "positive": {
+      "precision": 0.8796296296296297,
+      "recall": 0.7421875,
+      "f1-score": 0.8050847457627118,
+      "support": 128.0
+    },
+    "negative": {
+      "precision": 0.6181818181818182,
+      "recall": 0.723404255319149,
+      "f1-score": 0.6666666666666666,
+      "support": 47.0
+    },
+    "neutral": {
+      "precision": 0.3684210526315789,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.4375,
+      "support": 26.0
+    },
+    "accuracy": 0.7114427860696517,
+    "macro avg": {
+      "precision": 0.6220775001476756,
+      "recall": 0.6680177645935624,
+      "f1-score": 0.6364171374764594,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.7523685841570104,
+      "recall": 0.7114427860696517,
+      "f1-score": 0.7251700536863703,
+      "support": 201.0
+    }
+  }
+}
