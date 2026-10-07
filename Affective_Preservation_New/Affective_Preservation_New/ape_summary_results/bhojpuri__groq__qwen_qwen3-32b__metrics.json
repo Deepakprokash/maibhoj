@@ -1,0 +1,196 @@
+{
+  "language": "bhojpuri",
+  "model": "qwen/qwen3-32b",
+  "n_scored": 218,
+  "n_missing": 0,
+  "emo_preserved_acc": 0.44495412844036697,
+  "emo_macro_precision": 0.5474267440130894,
+  "emo_macro_recall": 0.32694094945556934,
+  "emo_macro_f1": 0.32114625519802537,
+  "emo_weighted_precision": 0.7201447993810103,
+  "emo_weighted_recall": 0.44495412844036697,
+  "emo_weighted_f1": 0.4223633283952843,
+  "emo_kappa": 0.2565598489332318,
+  "emo_mean_js": 0.16216820477568125,
+  "sent_preserved_acc": 0.7935779816513762,
+  "sent_macro_precision": 0.7482327731777475,
+  "sent_macro_recall": 0.7568986568986569,
+  "sent_macro_f1": 0.7498476027089361,
+  "sent_weighted_precision": 0.8095677210891222,
+  "sent_weighted_recall": 0.7935779816513762,
+  "sent_weighted_f1": 0.7992321585490666,
+  "sent_kappa": 0.6773344735716871,
+  "sent_polarity_flip_rate": 0.022935779816513763,
+  "emotion_confusion_matrix": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness"
+    ],
+    "matrix": [
+      [
+        7,
+        0,
+        1,
+        0,
+        25,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        25,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        54,
+        0
+      ],
+      [
+        2,
+        0,
+        3,
+        1,
+        23,
+        9
+      ]
+    ]
+  },
+  "emotion_per_class": {
+    "anger": {
+      "precision": 0.7,
+      "recall": 0.21212121212121213,
+      "f1-score": 0.32558139534883723,
+      "support": 33.0
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "fear": {
+      "precision": 0.3333333333333333,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.26666666666666666,
+      "support": 9.0
+    },
+    "joy": {
+      "precision": 0.9259259259259259,
+      "recall": 0.30864197530864196,
+      "f1-score": 0.46296296296296297,
+      "support": 81.0
+    },
+    "neutral": {
+      "precision": 0.3253012048192771,
+      "recall": 0.9818181818181818,
+      "f1-score": 0.48868778280542985,
+      "support": 55.0
+    },
+    "sadness": {
+      "precision": 1.0,
+      "recall": 0.23684210526315788,
+      "f1-score": 0.3829787234042553,
+      "support": 38.0
+    },
+    "accuracy": 0.44495412844036697,
+    "macro avg": {
+      "precision": 0.5474267440130894,
+      "recall": 0.32694094945556934,
+      "f1-score": 0.32114625519802537,
+      "support": 218.0
+    },
+    "weighted avg": {
+      "precision": 0.7201447993810103,
+      "recall": 0.44495412844036697,
+      "f1-score": 0.4223633283952843,
+      "support": 218.0
+    }
+  },
+  "sentiment_confusion_matrix": {
+    "labels": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        76,
+        3,
+        16
+      ],
+      [
+        2,
+        74,
+        8
+      ],
+      [
+        6,
+        10,
+        23
+      ]
+    ]
+  },
+  "sentiment_per_class": {
+    "positive": {
+      "precision": 0.9047619047619048,
+      "recall": 0.8,
+      "f1-score": 0.8491620111731844,
+      "support": 95.0
+    },
+    "negative": {
+      "precision": 0.8505747126436781,
+      "recall": 0.8809523809523809,
+      "f1-score": 0.8654970760233918,
+      "support": 84.0
+    },
+    "neutral": {
+      "precision": 0.48936170212765956,
+      "recall": 0.5897435897435898,
+      "f1-score": 0.5348837209302325,
+      "support": 39.0
+    },
+    "accuracy": 0.7935779816513762,
+    "macro avg": {
+      "precision": 0.7482327731777475,
+      "recall": 0.7568986568986569,
+      "f1-score": 0.7498476027089361,
+      "support": 218.0
+    },
+    "weighted avg": {
+      "precision": 0.8095677210891222,
+      "recall": 0.7935779816513762,
+      "f1-score": 0.7992321585490666,
+      "support": 218.0
+    }
+  },
+  "emo_acc": 0.44495412844036697,
+  "sent_acc": 0.7935779816513762,
+  "provider": "groq",
+  "task": "summary"
+}

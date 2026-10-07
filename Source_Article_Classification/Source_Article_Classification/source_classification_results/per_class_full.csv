@@ -1,0 +1,136 @@
+﻿language,provider,model,axis,class,precision,recall,f1,support
+bhojpuri,groq,openai/gpt-oss-120b,emotion,anger,0.7222222222222222,0.7878787878787878,0.7536231884057971,33.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,disgust,0.0,0.0,0.0,2.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,fear,0.21052631578947367,0.4444444444444444,0.2857142857142857,9.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,joy,0.8714285714285714,0.7530864197530864,0.8079470198675497,81.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,neutral,0.5294117647058824,0.6545454545454545,0.5853658536585366,55.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,sadness,1.0,0.631578947368421,0.7741935483870968,38.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,surprise,0.0,0.0,0.0,0.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,macro avg,0.4762269820208785,0.46736200771288494,0.4581205565761809,218.0
+bhojpuri,groq,openai/gpt-oss-120b,emotion,weighted avg,0.7496854656879652,0.6926605504587156,0.7087118311377091,218.0
+bhojpuri,groq,openai/gpt-oss-120b,sentiment,positive,0.9340659340659341,0.8947368421052632,0.9139784946236559,95.0
+bhojpuri,groq,openai/gpt-oss-120b,sentiment,negative,0.9459459459459459,0.8333333333333334,0.8860759493670886,84.0
+bhojpuri,groq,openai/gpt-oss-120b,sentiment,neutral,0.6226415094339622,0.8461538461538461,0.717391304347826,39.0
+bhojpuri,groq,openai/gpt-oss-120b,sentiment,macro avg,0.8342177964819474,0.8580746738641475,0.8391485827795235,218.0
+bhojpuri,groq,openai/gpt-oss-120b,sentiment,weighted avg,0.882930009466274,0.8623853211009175,0.8680577871818714,218.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,anger,0.6410256410256411,0.7575757575757576,0.6944444444444444,33.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,disgust,0.0,0.0,0.0,2.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,fear,0.5333333333333333,0.8888888888888888,0.6666666666666666,9.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,joy,0.8923076923076924,0.7160493827160493,0.7945205479452054,81.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,neutral,0.5633802816901409,0.7272727272727273,0.6349206349206349,55.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,sadness,0.9629629629629629,0.6842105263157895,0.8,38.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,surprise,0.0,0.0,0.0,0.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,macro avg,0.5132871301885387,0.5391424689670303,0.5129360419967074,218.0
+bhojpuri,groq,openai/gpt-oss-20b,emotion,weighted avg,0.760593015212475,0.7201834862385321,0.7274929631690973,218.0
+bhojpuri,groq,openai/gpt-oss-20b,sentiment,positive,0.8734177215189873,0.7263157894736842,0.7931034482758621,95.0
+bhojpuri,groq,openai/gpt-oss-20b,sentiment,negative,0.9811320754716981,0.6190476190476191,0.7591240875912408,84.0
+bhojpuri,groq,openai/gpt-oss-20b,sentiment,neutral,0.3953488372093023,0.8717948717948718,0.544,39.0
+bhojpuri,groq,openai/gpt-oss-20b,sentiment,macro avg,0.7499662113999959,0.7390527601053917,0.698742511955701,218.0
+bhojpuri,groq,openai/gpt-oss-20b,sentiment,weighted avg,0.8293962501609597,0.7110091743119266,0.7354461052471154,218.0
+maithili,groq,openai/gpt-oss-120b,emotion,anger,0.7,0.7777777777777778,0.7368421052631579,18.0
+maithili,groq,openai/gpt-oss-120b,emotion,disgust,0.0,0.0,0.0,1.0
+maithili,groq,openai/gpt-oss-120b,emotion,fear,0.0,0.0,0.0,0.0
+maithili,groq,openai/gpt-oss-120b,emotion,joy,0.8252427184466019,0.8673469387755102,0.845771144278607,98.0
+maithili,groq,openai/gpt-oss-120b,emotion,neutral,0.5483870967741935,0.4857142857142857,0.5151515151515151,35.0
+maithili,groq,openai/gpt-oss-120b,emotion,sadness,0.8292682926829268,0.7083333333333334,0.7640449438202247,48.0
+maithili,groq,openai/gpt-oss-120b,emotion,surprise,0.0,0.0,0.0,1.0
+maithili,groq,openai/gpt-oss-120b,emotion,macro avg,0.4146997297005317,0.4055960479429867,0.4088299583590721,201.0
+maithili,groq,openai/gpt-oss-120b,emotion,weighted avg,0.7585682231027077,0.746268656716418,0.7505133849140008,201.0
+maithili,groq,openai/gpt-oss-120b,sentiment,positive,0.9615384615384616,0.78125,0.8620689655172413,128.0
+maithili,groq,openai/gpt-oss-120b,sentiment,negative,0.7049180327868853,0.9148936170212766,0.7962962962962963,47.0
+maithili,groq,openai/gpt-oss-120b,sentiment,neutral,0.4444444444444444,0.6153846153846154,0.5161290322580645,26.0
+maithili,groq,openai/gpt-oss-120b,sentiment,macro avg,0.7036336462565971,0.770509410801964,0.7248314313572006,201.0
+maithili,groq,openai/gpt-oss-120b,sentiment,weighted avg,0.8346449063356329,0.7910447761194029,0.8019408375663805,201.0
+maithili,groq,openai/gpt-oss-20b,emotion,anger,0.5,0.6666666666666666,0.5714285714285714,18.0
+maithili,groq,openai/gpt-oss-20b,emotion,disgust,0.0,0.0,0.0,1.0
+maithili,groq,openai/gpt-oss-20b,emotion,fear,0.0,0.0,0.0,0.0
+maithili,groq,openai/gpt-oss-20b,emotion,joy,0.7894736842105263,0.9183673469387755,0.8490566037735849,98.0
+maithili,groq,openai/gpt-oss-20b,emotion,neutral,0.5625,0.5142857142857142,0.5373134328358209,35.0
+maithili,groq,openai/gpt-oss-20b,emotion,sadness,0.8620689655172413,0.5208333333333334,0.6493506493506493,48.0
+maithili,groq,openai/gpt-oss-20b,emotion,surprise,0.0,0.0,0.0,1.0
+maithili,groq,openai/gpt-oss-20b,emotion,macro avg,0.3877203785325382,0.37430758017492716,0.3724498939126609,201.0
+maithili,groq,openai/gpt-oss-20b,emotion,weighted avg,0.7335086139177074,0.7213930348258707,0.713771456585127,201.0
+maithili,groq,openai/gpt-oss-20b,sentiment,positive,0.9841269841269841,0.484375,0.6492146596858639,128.0
+maithili,groq,openai/gpt-oss-20b,sentiment,negative,0.8571428571428571,0.6382978723404256,0.7317073170731707,47.0
+maithili,groq,openai/gpt-oss-20b,sentiment,neutral,0.22330097087378642,0.8846153846153846,0.35658914728682173,26.0
+maithili,groq,openai/gpt-oss-20b,sentiment,macro avg,0.6881902707145425,0.6690960856519368,0.5791703746819521,201.0
+maithili,groq,openai/gpt-oss-20b,sentiment,weighted avg,0.8560188731178443,0.572139303482587,0.6306519312024227,201.0
+bhojpuri,local,google/gemma-3-27b-it,emotion,anger,0.7297297297297297,0.8181818181818182,0.7714285714285715,33
+bhojpuri,local,google/gemma-3-27b-it,emotion,disgust,0.0,0.0,0.0,2
+bhojpuri,local,google/gemma-3-27b-it,emotion,fear,0.3333333333333333,0.3333333333333333,0.3333333333333333,9
+bhojpuri,local,google/gemma-3-27b-it,emotion,joy,1.0,0.25925925925925924,0.4117647058823529,81
+bhojpuri,local,google/gemma-3-27b-it,emotion,neutral,0.3953488372093023,0.9272727272727272,0.5543478260869564,55
+bhojpuri,local,google/gemma-3-27b-it,emotion,sadness,1.0,0.5789473684210527,0.7333333333333334,38
+bhojpuri,local,google/gemma-3-27b-it,emotion,macro avg,0.5764019833787275,0.4861657510780318,0.4673679616774246,218
+bhojpuri,local,google/gemma-3-27b-it,emotion,weighted avg,0.7698406748972142,0.5688073394495413,0.5512196382342327,218
+bhojpuri,local,google/gemma-3-27b-it,sentiment,positive,0.9857142857142858,0.7263157894736842,0.8363636363636364,95
+bhojpuri,local,google/gemma-3-27b-it,sentiment,negative,0.9102564102564102,0.8452380952380952,0.8765432098765431,84
+bhojpuri,local,google/gemma-3-27b-it,sentiment,neutral,0.4714285714285714,0.8461538461538461,0.6055045871559632,39
+bhojpuri,local,google/gemma-3-27b-it,sentiment,macro avg,0.7891330891330891,0.8059025769552086,0.7728038111320475,218
+bhojpuri,local,google/gemma-3-27b-it,sentiment,weighted avg,0.8646335316060088,0.7935779816513762,0.8105452017580626,218
+maithili,local,google/gemma-3-27b-it,emotion,anger,0.6470588235294118,0.6111111111111112,0.6285714285714287,18
+maithili,local,google/gemma-3-27b-it,emotion,disgust,0.0,0.0,0.0,1
+maithili,local,google/gemma-3-27b-it,emotion,joy,0.9411764705882353,0.32653061224489793,0.48484848484848486,98
+maithili,local,google/gemma-3-27b-it,emotion,neutral,0.2777777777777778,0.8571428571428571,0.4195804195804196,35
+maithili,local,google/gemma-3-27b-it,emotion,sadness,0.6923076923076923,0.5625,0.6206896551724138,48
+maithili,local,google/gemma-3-27b-it,emotion,surprise,0.0,0.0,0.0,1
+maithili,local,google/gemma-3-27b-it,emotion,macro avg,0.4263867940338528,0.3928807634164777,0.35894833136212445,201
+maithili,local,google/gemma-3-27b-it,emotion,weighted avg,0.730524101463522,0.4975124378109453,0.5139694296668049,201
+maithili,local,google/gemma-3-27b-it,sentiment,positive,0.9711538461538461,0.7890625,0.8706896551724138,128
+maithili,local,google/gemma-3-27b-it,sentiment,negative,0.7636363636363637,0.8936170212765957,0.8235294117647058,47
+maithili,local,google/gemma-3-27b-it,sentiment,neutral,0.4523809523809524,0.7307692307692307,0.5588235294117647,26
+maithili,local,google/gemma-3-27b-it,sentiment,macro avg,0.7290570540570541,0.8044829173486088,0.7510141987829616,201
+maithili,local,google/gemma-3-27b-it,sentiment,weighted avg,0.855524906271175,0.8059701492537313,0.8193212436801792,201
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,anger,0.5714285714285714,0.7272727272727273,0.64,33
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,disgust,0.0,0.0,0.0,2
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,fear,0.5,0.1111111111111111,0.1818181818181818,9
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,joy,0.8169014084507042,0.7160493827160493,0.7631578947368421,81
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,neutral,0.44776119402985076,0.5454545454545454,0.49180327868852464,55
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,sadness,0.96,0.631578947368421,0.7619047619047619,38
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,surprise,0.0,0.0,0.0,0
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,macro avg,0.47087016770130374,0.39020953056040775,0.4055263024497586,218
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,emotion,weighted avg,0.6909771679508794,0.6284403669724771,0.6448335522490718,218
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,positive,0.9021739130434783,0.8736842105263158,0.8877005347593583,95
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,negative,0.9692307692307692,0.75,0.8456375838926173,84
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,neutral,0.5245901639344263,0.8205128205128205,0.64,39
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,macro avg,0.7986649487362246,0.8147323436797121,0.7911127062173252,218
+bhojpuri,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,weighted avg,0.8604629483851268,0.8165137614678899,0.8271793938032976,218
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,anger,0.375,0.3333333333333333,0.35294117647058826,18
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,disgust,0.0,0.0,0.0,1
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,joy,0.6742424242424242,0.9081632653061225,0.7739130434782607,98
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,neutral,0.5454545454545454,0.34285714285714286,0.42105263157894735,35
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,sadness,0.8064516129032258,0.5208333333333334,0.6329113924050633,48
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,surprise,0.0,0.0,0.0,1
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,macro avg,0.40019143043336597,0.35086451247165534,0.3634697073221433,201
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,emotion,weighted avg,0.6498823088856791,0.6567164179104478,0.6333980516320714,201
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,positive,0.8686131386861314,0.9296875,0.89811320754717,128
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,negative,0.9259259259259259,0.5319148936170213,0.6756756756756757,47
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,neutral,0.5135135135135135,0.7307692307692307,0.6031746031746031,26
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,macro avg,0.7693508593751903,0.730790541462084,0.7256544954658163,201
+maithili,local,meta-llama/Llama-3.1-8B-Instruct,sentiment,weighted avg,0.8360813513517149,0.8109452736318408,0.8079491890812646,201
+bhojpuri,local,Qwen/Qwen3-32B,emotion,anger,0.8571428571428571,0.18181818181818182,0.30000000000000004,33
+bhojpuri,local,Qwen/Qwen3-32B,emotion,disgust,0.0,0.0,0.0,2
+bhojpuri,local,Qwen/Qwen3-32B,emotion,fear,0.5,0.1111111111111111,0.1818181818181818,9
+bhojpuri,local,Qwen/Qwen3-32B,emotion,joy,1.0,0.19753086419753085,0.32989690721649484,81
+bhojpuri,local,Qwen/Qwen3-32B,emotion,neutral,0.2956989247311828,1.0,0.4564315352697096,55
+bhojpuri,local,Qwen/Qwen3-32B,emotion,sadness,1.0,0.18421052631578946,0.3111111111111111,38
+bhojpuri,local,Qwen/Qwen3-32B,emotion,macro avg,0.6088069636456733,0.27911178057376884,0.26320962256924957,218
+bhojpuri,local,Qwen/Qwen3-32B,emotion,weighted avg,0.7708676841556391,0.38990825688073394,0.3448805953346604,218
+bhojpuri,local,Qwen/Qwen3-32B,sentiment,positive,0.9866666666666667,0.7789473684210526,0.8705882352941177,95
+bhojpuri,local,Qwen/Qwen3-32B,sentiment,negative,0.9367088607594937,0.8809523809523809,0.9079754601226993,84
+bhojpuri,local,Qwen/Qwen3-32B,sentiment,neutral,0.53125,0.8717948717948718,0.6601941747572816,39
+bhojpuri,local,Qwen/Qwen3-32B,sentiment,macro avg,0.8182085091420536,0.8438982070561017,0.8129192900580328,218
+bhojpuri,local,Qwen/Qwen3-32B,sentiment,weighted avg,0.8859432460418843,0.8348623853211009,0.8473550175173481,218
+maithili,local,Qwen/Qwen3-32B,emotion,anger,0.6666666666666666,0.1111111111111111,0.1904761904761905,18
+maithili,local,Qwen/Qwen3-32B,emotion,disgust,0.0,0.0,0.0,1
+maithili,local,Qwen/Qwen3-32B,emotion,joy,1.0,0.25510204081632654,0.40650406504065045,98
+maithili,local,Qwen/Qwen3-32B,emotion,neutral,0.2046783625730994,1.0,0.3398058252427184,35
+maithili,local,Qwen/Qwen3-32B,emotion,sadness,1.0,0.041666666666666664,0.07999999999999999,48
+maithili,local,Qwen/Qwen3-32B,emotion,surprise,0.0,0.0,0.0,1
+maithili,local,Qwen/Qwen3-32B,emotion,macro avg,0.47855750487329435,0.23464663643235073,0.16946434679325992,201
+maithili,local,Qwen/Qwen3-32B,emotion,weighted avg,0.8217101626371068,0.31840796019900497,0.2935282272937827,201
+maithili,local,Qwen/Qwen3-32B,sentiment,positive,0.989247311827957,0.71875,0.832579185520362,128
+maithili,local,Qwen/Qwen3-32B,sentiment,negative,0.8125,0.8297872340425532,0.8210526315789474,47
+maithili,local,Qwen/Qwen3-32B,sentiment,neutral,0.38333333333333336,0.8846153846153846,0.5348837209302326,26
+maithili,local,Qwen/Qwen3-32B,sentiment,macro avg,0.7283602150537635,0.8110508728859793,0.7295051793431807,201
+maithili,local,Qwen/Qwen3-32B,sentiment,weighted avg,0.8695414058738565,0.7661691542288557,0.791376050621905,201

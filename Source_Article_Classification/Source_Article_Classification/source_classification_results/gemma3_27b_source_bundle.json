@@ -1,0 +1,385 @@
+{
+  "model": "google/gemma-3-27b-it",
+  "provider": "local",
+  "task": "source_classification",
+  "slices": [
+    {
+      "task": "source",
+      "language": "bhojpuri",
+      "provider": "local",
+      "model": "google/gemma-3-27b-it",
+      "n_scored": 218,
+      "n_missing": 0,
+      "emo_acc": 0.5688073394495413,
+      "emo_macro_precision": 0.5764019833787275,
+      "emo_macro_recall": 0.4861657510780318,
+      "emo_macro_f1": 0.4673679616774246,
+      "emo_weighted_f1": 0.5512196382342327,
+      "emo_kappa": 0.4399562722055206,
+      "emo_mean_js": 0.09056397462712212,
+      "sent_acc": 0.7935779816513762,
+      "sent_macro_precision": 0.7891330891330891,
+      "sent_macro_recall": 0.8059025769552086,
+      "sent_macro_f1": 0.7728038111320475,
+      "sent_weighted_f1": 0.8105452017580626,
+      "sent_kappa": 0.689478348949101,
+      "emotion_confusion_matrix": {
+        "labels": [
+          "anger",
+          "disgust",
+          "fear",
+          "joy",
+          "neutral",
+          "sadness"
+        ],
+        "matrix": [
+          [
+            27,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            3,
+            0,
+            5,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            21,
+            59,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            51,
+            0
+          ],
+          [
+            7,
+            0,
+            2,
+            0,
+            7,
+            22
+          ]
+        ]
+      },
+      "emotion_per_class": {
+        "anger": {
+          "precision": 0.7297297297297297,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.7714285714285715,
+          "support": 33
+        },
+        "disgust": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2
+        },
+        "fear": {
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.3333333333333333,
+          "support": 9
+        },
+        "joy": {
+          "precision": 1.0,
+          "recall": 0.25925925925925924,
+          "f1-score": 0.4117647058823529,
+          "support": 81
+        },
+        "neutral": {
+          "precision": 0.3953488372093023,
+          "recall": 0.9272727272727272,
+          "f1-score": 0.5543478260869564,
+          "support": 55
+        },
+        "sadness": {
+          "precision": 1.0,
+          "recall": 0.5789473684210527,
+          "f1-score": 0.7333333333333334,
+          "support": 38
+        },
+        "accuracy": 0.5688073394495413,
+        "macro avg": {
+          "precision": 0.5764019833787275,
+          "recall": 0.4861657510780318,
+          "f1-score": 0.4673679616774246,
+          "support": 218
+        },
+        "weighted avg": {
+          "precision": 0.7698406748972142,
+          "recall": 0.5688073394495413,
+          "f1-score": 0.5512196382342327,
+          "support": 218
+        }
+      },
+      "sentiment_confusion_matrix": {
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ],
+        "matrix": [
+          [
+            69,
+            1,
+            25
+          ],
+          [
+            1,
+            71,
+            12
+          ],
+          [
+            0,
+            6,
+            33
+          ]
+        ]
+      },
+      "sentiment_per_class": {
+        "positive": {
+          "precision": 0.9857142857142858,
+          "recall": 0.7263157894736842,
+          "f1-score": 0.8363636363636364,
+          "support": 95
+        },
+        "negative": {
+          "precision": 0.9102564102564102,
+          "recall": 0.8452380952380952,
+          "f1-score": 0.8765432098765431,
+          "support": 84
+        },
+        "neutral": {
+          "precision": 0.4714285714285714,
+          "recall": 0.8461538461538461,
+          "f1-score": 0.6055045871559632,
+          "support": 39
+        },
+        "accuracy": 0.7935779816513762,
+        "macro avg": {
+          "precision": 0.7891330891330891,
+          "recall": 0.8059025769552086,
+          "f1-score": 0.7728038111320475,
+          "support": 218
+        },
+        "weighted avg": {
+          "precision": 0.8646335316060088,
+          "recall": 0.7935779816513762,
+          "f1-score": 0.8105452017580626,
+          "support": 218
+        }
+      }
+    },
+    {
+      "task": "source",
+      "language": "maithili",
+      "provider": "local",
+      "model": "google/gemma-3-27b-it",
+      "n_scored": 201,
+      "n_missing": 0,
+      "emo_acc": 0.4975124378109453,
+      "emo_macro_precision": 0.4263867940338528,
+      "emo_macro_recall": 0.3928807634164777,
+      "emo_macro_f1": 0.35894833136212445,
+      "emo_weighted_f1": 0.5139694296668049,
+      "emo_kappa": 0.3474025974025976,
+      "emo_mean_js": 0.07385675395618913,
+      "sent_acc": 0.8059701492537313,
+      "sent_macro_precision": 0.7290570540570541,
+      "sent_macro_recall": 0.8044829173486088,
+      "sent_macro_f1": 0.7510141987829616,
+      "sent_weighted_f1": 0.8193212436801792,
+      "sent_kappa": 0.6651717068170169,
+      "emotion_confusion_matrix": {
+        "labels": [
+          "anger",
+          "disgust",
+          "joy",
+          "neutral",
+          "sadness",
+          "surprise"
+        ],
+        "matrix": [
+          [
+            11,
+            0,
+            0,
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            32,
+            57,
+            5,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            30,
+            3,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            17,
+            27,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "emotion_per_class": {
+        "anger": {
+          "precision": 0.6470588235294118,
+          "recall": 0.6111111111111112,
+          "f1-score": 0.6285714285714287,
+          "support": 18
+        },
+        "disgust": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1
+        },
+        "joy": {
+          "precision": 0.9411764705882353,
+          "recall": 0.32653061224489793,
+          "f1-score": 0.48484848484848486,
+          "support": 98
+        },
+        "neutral": {
+          "precision": 0.2777777777777778,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.4195804195804196,
+          "support": 35
+        },
+        "sadness": {
+          "precision": 0.6923076923076923,
+          "recall": 0.5625,
+          "f1-score": 0.6206896551724138,
+          "support": 48
+        },
+        "surprise": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1
+        },
+        "accuracy": 0.4975124378109453,
+        "macro avg": {
+          "precision": 0.4263867940338528,
+          "recall": 0.3928807634164777,
+          "f1-score": 0.35894833136212445,
+          "support": 201
+        },
+        "weighted avg": {
+          "precision": 0.730524101463522,
+          "recall": 0.4975124378109453,
+          "f1-score": 0.5139694296668049,
+          "support": 201
+        }
+      },
+      "sentiment_confusion_matrix": {
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ],
+        "matrix": [
+          [
+            101,
+            7,
+            20
+          ],
+          [
+            2,
+            42,
+            3
+          ],
+          [
+            1,
+            6,
+            19
+          ]
+        ]
+      },
+      "sentiment_per_class": {
+        "positive": {
+          "precision": 0.9711538461538461,
+          "recall": 0.7890625,
+          "f1-score": 0.8706896551724138,
+          "support": 128
+        },
+        "negative": {
+          "precision": 0.7636363636363637,
+          "recall": 0.8936170212765957,
+          "f1-score": 0.8235294117647058,
+          "support": 47
+        },
+        "neutral": {
+          "precision": 0.4523809523809524,
+          "recall": 0.7307692307692307,
+          "f1-score": 0.5588235294117647,
+          "support": 26
+        },
+        "accuracy": 0.8059701492537313,
+        "macro avg": {
+          "precision": 0.7290570540570541,
+          "recall": 0.8044829173486088,
+          "f1-score": 0.7510141987829616,
+          "support": 201
+        },
+        "weighted avg": {
+          "precision": 0.855524906271175,
+          "recall": 0.8059701492537313,
+          "f1-score": 0.8193212436801792,
+          "support": 201
+        }
+      }
+    }
+  ]
+}

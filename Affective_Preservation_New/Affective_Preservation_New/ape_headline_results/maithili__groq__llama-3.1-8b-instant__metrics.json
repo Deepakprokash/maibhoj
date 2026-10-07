@@ -1,0 +1,196 @@
+{
+  "language": "maithili",
+  "model": "llama-3.1-8b-instant",
+  "n_scored": 201,
+  "n_missing": 0,
+  "emo_preserved_acc": 0.5024875621890548,
+  "emo_macro_precision": 0.3443783068783069,
+  "emo_macro_recall": 0.31104024943310654,
+  "emo_macro_f1": 0.30742375601926164,
+  "emo_weighted_precision": 0.5806799336650083,
+  "emo_weighted_recall": 0.5024875621890548,
+  "emo_weighted_f1": 0.5174884006931634,
+  "emo_kappa": 0.29098028149141064,
+  "emo_mean_js": 0.26889668266937655,
+  "sent_preserved_acc": 0.6666666666666666,
+  "sent_macro_precision": 0.6025132275132276,
+  "sent_macro_recall": 0.5363944012547736,
+  "sent_macro_f1": 0.5426026673723097,
+  "sent_weighted_precision": 0.7112157466635077,
+  "sent_weighted_recall": 0.6666666666666666,
+  "sent_weighted_f1": 0.6716781671388585,
+  "sent_kappa": 0.35567676187742214,
+  "sent_polarity_flip_rate": 0.0945273631840796,
+  "emotion_confusion_matrix": {
+    "labels": [
+      "anger",
+      "disgust",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "matrix": [
+      [
+        6,
+        0,
+        1,
+        6,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        58,
+        29,
+        5,
+        4
+      ],
+      [
+        0,
+        0,
+        11,
+        22,
+        2,
+        0
+      ],
+      [
+        4,
+        0,
+        10,
+        18,
+        15,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "emotion_per_class": {
+    "anger": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4,
+      "support": 18.0
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "joy": {
+      "precision": 0.725,
+      "recall": 0.5918367346938775,
+      "f1-score": 0.651685393258427,
+      "support": 98.0
+    },
+    "neutral": {
+      "precision": 0.2857142857142857,
+      "recall": 0.6285714285714286,
+      "f1-score": 0.39285714285714285,
+      "support": 35.0
+    },
+    "sadness": {
+      "precision": 0.5555555555555556,
+      "recall": 0.3125,
+      "f1-score": 0.4,
+      "support": 48.0
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.5024875621890548,
+    "macro avg": {
+      "precision": 0.3443783068783069,
+      "recall": 0.31104024943310654,
+      "f1-score": 0.30742375601926164,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.5806799336650083,
+      "recall": 0.5024875621890548,
+      "f1-score": 0.5174884006931634,
+      "support": 201.0
+    }
+  },
+  "sentiment_confusion_matrix": {
+    "labels": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        105,
+        3,
+        20
+      ],
+      [
+        16,
+        19,
+        12
+      ],
+      [
+        14,
+        2,
+        10
+      ]
+    ]
+  },
+  "sentiment_per_class": {
+    "positive": {
+      "precision": 0.7777777777777778,
+      "recall": 0.8203125,
+      "f1-score": 0.7984790874524715,
+      "support": 128.0
+    },
+    "negative": {
+      "precision": 0.7916666666666666,
+      "recall": 0.40425531914893614,
+      "f1-score": 0.5352112676056338,
+      "support": 47.0
+    },
+    "neutral": {
+      "precision": 0.23809523809523808,
+      "recall": 0.38461538461538464,
+      "f1-score": 0.29411764705882354,
+      "support": 26.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.6025132275132276,
+      "recall": 0.5363944012547736,
+      "f1-score": 0.5426026673723097,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.7112157466635077,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6716781671388585,
+      "support": 201.0
+    }
+  },
+  "emo_acc": 0.5024875621890548,
+  "sent_acc": 0.6666666666666666,
+  "provider": "groq",
+  "task": "headline"
+}

@@ -1,0 +1,210 @@
+{
+  "language": "maithili",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "n_scored": 201,
+  "n_missing": 0,
+  "emo_acc": 0.7213930348258707,
+  "emo_macro_precision": 0.3877203785325382,
+  "emo_macro_recall": 0.37430758017492716,
+  "emo_macro_f1": 0.3724498939126609,
+  "emo_weighted_f1": 0.713771456585127,
+  "emo_kappa": 0.5717709720372837,
+  "emo_mean_js": 0.10561503784090451,
+  "sent_acc": 0.572139303482587,
+  "sent_macro_precision": 0.6881902707145425,
+  "sent_macro_recall": 0.6690960856519368,
+  "sent_macro_f1": 0.5791703746819521,
+  "sent_weighted_f1": 0.6306519312024227,
+  "sent_kappa": 0.38295138145213115,
+  "emotion_confusion_matrix": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "matrix": [
+      [
+        12,
+        0,
+        0,
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        90,
+        4,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        16,
+        18,
+        0,
+        0
+      ],
+      [
+        9,
+        0,
+        2,
+        5,
+        7,
+        25,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "emotion_per_class": {
+    "anger": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5714285714285714,
+      "support": 18.0
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "joy": {
+      "precision": 0.7894736842105263,
+      "recall": 0.9183673469387755,
+      "f1-score": 0.8490566037735849,
+      "support": 98.0
+    },
+    "neutral": {
+      "precision": 0.5625,
+      "recall": 0.5142857142857142,
+      "f1-score": 0.5373134328358209,
+      "support": 35.0
+    },
+    "sadness": {
+      "precision": 0.8620689655172413,
+      "recall": 0.5208333333333334,
+      "f1-score": 0.6493506493506493,
+      "support": 48.0
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.7213930348258707,
+    "macro avg": {
+      "precision": 0.3877203785325382,
+      "recall": 0.37430758017492716,
+      "f1-score": 0.3724498939126609,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.7335086139177074,
+      "recall": 0.7213930348258707,
+      "f1-score": 0.713771456585127,
+      "support": 201.0
+    }
+  },
+  "sentiment_confusion_matrix": {
+    "labels": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        62,
+        2,
+        64
+      ],
+      [
+        1,
+        30,
+        16
+      ],
+      [
+        0,
+        3,
+        23
+      ]
+    ]
+  },
+  "sentiment_per_class": {
+    "positive": {
+      "precision": 0.9841269841269841,
+      "recall": 0.484375,
+      "f1-score": 0.6492146596858639,
+      "support": 128.0
+    },
+    "negative": {
+      "precision": 0.8571428571428571,
+      "recall": 0.6382978723404256,
+      "f1-score": 0.7317073170731707,
+      "support": 47.0
+    },
+    "neutral": {
+      "precision": 0.22330097087378642,
+      "recall": 0.8846153846153846,
+      "f1-score": 0.35658914728682173,
+      "support": 26.0
+    },
+    "accuracy": 0.572139303482587,
+    "macro avg": {
+      "precision": 0.6881902707145425,
+      "recall": 0.6690960856519368,
+      "f1-score": 0.5791703746819521,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.8560188731178443,
+      "recall": 0.572139303482587,
+      "f1-score": 0.6306519312024227,
+      "support": 201.0
+    }
+  }
+}

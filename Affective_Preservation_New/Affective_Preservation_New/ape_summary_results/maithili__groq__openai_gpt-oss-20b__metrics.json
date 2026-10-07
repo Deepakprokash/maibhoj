@@ -1,0 +1,218 @@
+{
+  "language": "maithili",
+  "model": "openai/gpt-oss-20b",
+  "n_scored": 201,
+  "n_missing": 0,
+  "emo_preserved_acc": 0.5572139303482587,
+  "emo_macro_precision": 0.2661326477493652,
+  "emo_macro_recall": 0.25722789115646255,
+  "emo_macro_f1": 0.25946579625397803,
+  "emo_weighted_precision": 0.543228085052539,
+  "emo_weighted_recall": 0.5572139303482587,
+  "emo_weighted_f1": 0.5456387986895389,
+  "emo_kappa": 0.3150176137233879,
+  "emo_mean_js": 0.14867220432673048,
+  "sent_preserved_acc": 0.6666666666666666,
+  "sent_macro_precision": 0.6015713302865006,
+  "sent_macro_recall": 0.602947695035461,
+  "sent_macro_f1": 0.5854299295475766,
+  "sent_weighted_precision": 0.7335858669207406,
+  "sent_weighted_recall": 0.6666666666666666,
+  "sent_weighted_f1": 0.6910682138074589,
+  "sent_kappa": 0.4132793098941314,
+  "sent_polarity_flip_rate": 0.07960199004975124,
+  "emotion_confusion_matrix": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "matrix": [
+      [
+        6,
+        0,
+        1,
+        6,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        77,
+        12,
+        7,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        20,
+        10,
+        4,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        9,
+        12,
+        19,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "emotion_per_class": {
+    "anger": {
+      "precision": 0.35294117647058826,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.34285714285714286,
+      "support": 18.0
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "joy": {
+      "precision": 0.6814159292035398,
+      "recall": 0.7857142857142857,
+      "f1-score": 0.7298578199052133,
+      "support": 98.0
+    },
+    "neutral": {
+      "precision": 0.2857142857142857,
+      "recall": 0.2857142857142857,
+      "f1-score": 0.2857142857142857,
+      "support": 35.0
+    },
+    "sadness": {
+      "precision": 0.5428571428571428,
+      "recall": 0.3958333333333333,
+      "f1-score": 0.4578313253012048,
+      "support": 48.0
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.5572139303482587,
+    "macro avg": {
+      "precision": 0.2661326477493652,
+      "recall": 0.25722789115646255,
+      "f1-score": 0.25946579625397803,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.543228085052539,
+      "recall": 0.5572139303482587,
+      "f1-score": 0.5456387986895389,
+      "support": 201.0
+    }
+  },
+  "sentiment_confusion_matrix": {
+    "labels": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        94,
+        6,
+        28
+      ],
+      [
+        10,
+        27,
+        10
+      ],
+      [
+        8,
+        5,
+        13
+      ]
+    ]
+  },
+  "sentiment_per_class": {
+    "positive": {
+      "precision": 0.8392857142857143,
+      "recall": 0.734375,
+      "f1-score": 0.7833333333333333,
+      "support": 128.0
+    },
+    "negative": {
+      "precision": 0.7105263157894737,
+      "recall": 0.574468085106383,
+      "f1-score": 0.6352941176470588,
+      "support": 47.0
+    },
+    "neutral": {
+      "precision": 0.2549019607843137,
+      "recall": 0.5,
+      "f1-score": 0.33766233766233766,
+      "support": 26.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.6015713302865006,
+      "recall": 0.602947695035461,
+      "f1-score": 0.5854299295475766,
+      "support": 201.0
+    },
+    "weighted avg": {
+      "precision": 0.7335858669207406,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6910682138074589,
+      "support": 201.0
+    }
+  },
+  "emo_acc": 0.5572139303482587,
+  "sent_acc": 0.6666666666666666,
+  "provider": "groq",
+  "task": "summary"
+}
