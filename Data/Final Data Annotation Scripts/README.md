@@ -21,7 +21,7 @@ CSVs and adds, per article: a native-language `summary`, seven **Ekman** emotion
 | `maithili_1_annotated.csv` | full set with annotation from maithilijindabaad (blanks where not yet annotated) | 5,573 | https://docs.google.com/spreadsheets/d/16Hj37XCSfXEltQAJ-4ApUY4GbfDWBUC2lTOlcGDePbU/edit?usp=sharing |
 |maithili_2_annotated.csv| full set with annotation from esamaad | 2997 | https://drive.google.com/file/d/1bkmQ-XqAqJfvFGE1nxUVw9I7OCmiETXF/view?usp=sharing |
 | `test_rows_bhojpuri_1.csv` | test data bhojpuri  | 2,178 | https://drive.google.com/file/d/1J9fNPk-gZSE9TpIvdy_ih6yPwbgkFOFM/view?usp=sharing |
-| `test_rows_maithili_1.csv` | test data maithili | 2,022 | https://drive.google.com/file/d/1gsHJgHL2HbHNnEk6lWNBz1_kVtFW0zLg/view?usp=drive_link |
+| `test_rows_maithili_1.csv` | test data maithili | 2,010 | https://drive.google.com/file/d/1gsHJgHL2HbHNnEk6lWNBz1_kVtFW0zLg/view?usp=drive_link |
 
 The `good_rows_*` files are the export of fully-complete rows (valid summary + non-fallback
 emotion + valid sentiment); the `*_annotated` files keep every source row and leave
